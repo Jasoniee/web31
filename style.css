@@ -1,0 +1,167 @@
+/* CSS files add styling rules to your content */
+
+body {
+  margin: 2em;
+  padding-top: 0.5%;
+  background-color: brown;
+  background-attachment: fixed;
+}
+
+nav {
+  width: 100%;
+  justify-content: center;
+  position: fixed;
+  padding-top: 10px;
+  padding-bottom: 12px;
+  text-align: center;
+    display: inline-block;
+  background-color:orange;
+  top: -3%;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav a {
+  color: black;
+  font-size:1.7em;
+}
+nav li {
+  display: inline-block;
+  text-align: center;
+  width: 10%;
+}
+
+section {
+  max-width: 1024px;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 60px;
+  justify-content: center;
+  background-color: pink;
+  padding: 50px;
+  font-size:0.8em;
+}
+
+h1 {
+  color: black;
+}
+
+p {
+  margin: 0px;
+}
+
+.subsection {
+  margin-bottom: 10px;
+}
+.ab-container{
+  border-radius:10px;
+}
+
+.a-container {
+  max-width: 720px;
+}
+.proj-header {
+  margin-bottom: 5px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.proj-header a {
+  flex-basis: 80%;
+}
+
+.proj-header h1 {
+  flex-basis: 80%;
+}
+
+.tag-container {
+  flex-basis: 20%;
+  white-space: nowrap;
+}
+
+.back {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+#profile-png{
+  width:250px;
+}
+
+/* Hashtags */
+.tag {
+  padding: 7px;
+  border-radius: 3px;
+  line-height: 10px;
+}
+
+.ML-tag {
+  background-color: red;
+}
+
+.NLP-tag {
+  background-color: orange;
+}
+
+.row {
+  display: flex;
+}
+@media only screen and (max-width: 768px){
+    [class*="col-"]{
+      flex-basis: 100%;  
+    }
+    .row{
+       flex-wrap: wrap;
+    }
+  nav ul {
+    text-align: left;
+  }
+  nav li {
+    width: 20%;
+  }
+  }  
+.col-1 {
+  flex-basis: 8.33%;
+} /* width works too */
+.col-2 {
+  flex-basis: 16.66%;
+}
+.col-3 {
+  flex-basis: 25%;
+}
+.col-4 {
+  flex-basis: 33.33%;
+}
+.col-5 {
+  flex-basis: 41.66%;
+}
+.col-6 {
+  flex-basis: 50%;
+}
+.col-7 {
+  flex-basis: 58.33%;
+}
+.col-8 {
+  flex-basis: 66.66%;
+}
+.col-9 {
+  flex-basis: 75%;
+}
+.col-10 {
+  flex-basis: 83.33%;
+}
+.col-11 {
+  flex-basis: 91.66%;
+}
+.col-12 {
+  flex-basis: 100%;
+}
+
+.col-6 img {
+  width: 100%;
+  max-height: 450px;
+  object-fit: contain;
+}
