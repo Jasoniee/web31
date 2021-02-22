@@ -1,0 +1,44 @@
+{
+  "about":{
+    "name":"Qingyun Yang",
+    "title":"Boston College Class of 2022",
+    "photo":"https://cdn.glitch.com/8ef206b2-c85e-4f1a-a9d5-85ada93b2901%2F%E8%AF%81%E4%BB%B6%E7%85%A7.jpg?v=1612599947061",
+    "email":"yangama@bc.edu",
+    "intro":"Currently studying in Boston College, Qingyun Yang majors in Computer Science and Psychology.His research interest is machine learning in natural language processing. Apart from his academic interest, Qingyun Yang also shows great enthusiasms on basketball and oboe."
+  },
+  "news":[
+    {
+      "title":"Starting doing research with Professor Prud'hommeaux",
+      "date":"January 27,2021"
+    },
+    {
+      "title":"Flying back to China due to Covid-19",
+      "data":"May 25,2020"
+    },{
+      "title":"Joining Boston College Wind Ensemble",
+      "data":"October 15,2018"
+    },{
+      "title":"Getting admitted by Boston College",
+      "data":"March 30,2018"
+    }
+  ],
+  "projects":[
+    {
+      "id":"NLP",
+      "title":"Predicting 2020 Presidential Election Result Using NLP Techniques",
+      "authors":"Qingyun Yang, Yufan Yang, Xiaoyu Ke",
+      "source":"Machine Learning Class",
+      "teaser":["https://cdn.glitch.com/8ef206b2-c85e-4f1a-a9d5-85ada93b2901%2Ffaa64f9d3aec1ae19e2ede712c6e93e.png?v=1612660278526"
+                ],
+      "tags":["Machine Learning","NLP"],
+      "materials":[
+        {
+          "path":"https://qingyun-yang-web.glitch.me/project1.html"
+          
+        }
+      ],
+      "description":"In the project we led out our attempt at Natural Language processing through Practical Text Classification. We explored the correlation between speeches in the presidential debate and the election result. A linear regression model is trained with pre-processed transcripts of historical presidential debates and the model is then applied to the 2020 presidential debates. The prediction we derived is in accord with the result we have seen over the past month -- indicating Biden’s win, however, the performance of our model does not indicate phenomenal correlation due to the limited scope of input against the vast amount of factors that potentially influence election results. Though demonstrating not yet satisfactory performance, our model remains unique when compared to many existing ones for that it focuses solely on the verbiage used by political candidates, which we believe is a quest worth exploring and could potentially provide valuable insight for linguists and political scientists."
+    }
+  ]
+  
+}
